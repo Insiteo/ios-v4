@@ -2,6 +2,19 @@
 
 We provide sample applications to illustrate SDK integration and use cases.
 
-- Basic:
+### 1. Basic Example
 
-A blank Xcode project with Insiteo SDK already integrated. This application integrate some snippets of code, extracted from the [Getting Started](https://github.com/Insiteo/ios-v4/blob/master/documentation/getting-started.md) or other [documentation guides](https://github.com/Insiteo/ios-v4/tree/master/documentation).
+Basic example is a blank Xcode project with Insiteo SDK Core features integrated:
+
+- basic API usage (initialization, synchronization and start), 
+- custom analytics tracking,
+- location events delegation,
+- background fetch integration (for auto synchronization).
+
+### 2. Push Example
+
+Push example is a blank Xcode project with Insiteo SDK Push features integrated:
+
+- basic API usage (required),
+- intercepting triggered actions examples (web view display and custom webservices call),
+- handle notification user acknowledgments.

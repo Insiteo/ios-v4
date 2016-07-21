@@ -1,0 +1,6 @@
+framework module InsiteoSDKInteractivity {
+    umbrella header "InsiteoSDKInteractivity.h"
+
+    export *
+    module * { export * }
+}

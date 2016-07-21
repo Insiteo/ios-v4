@@ -1,0 +1,6 @@
+platform :ios, '8.0'
+
+target 'PushExample' do
+  pod 'InsiteoSDKCore', :podspec => 'https://raw.github.com/Insiteo/ios-v4/master/InsiteoSDKCore.podspec'
+  pod 'InsiteoSDKPush', :podspec => 'https://raw.github.com/Insiteo/ios-v4/master/InsiteoSDKPush.podspec'
+end
