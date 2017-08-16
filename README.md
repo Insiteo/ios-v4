@@ -111,7 +111,7 @@ If you plan to use Swift instead of Objective-C for your project, you will need 
 
 1. Add a new file called *Dummy*: **File/New/File...** and select **iOS/Objective-C File**, choose **Empty File**, type *Dummy* and **Next** and **Create**.
 2. Xcode will ask if you want to configure an Objective-C bridging header, type **YES**. Xcode will automatically create a file **<Project-Name>-Bridging-Header** and add it to your build settings in **Objective-C Bridging Header**.
-3. You can now import Insiteo SDK header `#import <InsiteoSDKCore/InsiteoSDK.Core.h>` into this header file.
+3. You can now import Insiteo SDK header `#import <InsiteoSDKCore/InsiteoSDKCore.h>` into this header file.
 
 > **Compilation issues:** If the error `'InsiteoSDKCore/InsiteoSDKCore.h' file not found` occured, add a valid **Framework Search Paths** in your target build settings in order to help the compiler to find the framework.
 

@@ -19,7 +19,7 @@ Pod::Spec.new do |s|
   s.social_media_url = "https://twitter.com/Insiteo"
 
   s.platform     = :ios, "7.0"
-  s.source       = { :git => "https://github.com/Insiteo/ios-sdk-v4.git", :tag => 'v' + s.version.to_s }
+  s.source       = { :git => "https://github.com/Insiteo/ios-v4.git", :tag => 'v' + s.version.to_s }
   s.vendored_frameworks = "InsiteoSDKPush.framework"
   s.frameworks = "CoreLocation", "CoreTelephony", "Foundation", "MobileCoreServices", "Security", "SystemConfiguration", "UIKit"
   s.library   = "sqlite3"
